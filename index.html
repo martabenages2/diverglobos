@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DiverGlobos | Decoraciones para momentos especiales</title>
+    <meta name="description" content="Decoraciones con globos para cumpleaños, bodas, bautizos y baby showers. Cuéntanos tu idea y la haremos realidad con DiverGlobos.">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- CABECERA -->
+    <header class="site-header">
+        <div class="container header-inner">
+
+            <a href="#inicio" class="logo-link" aria-label="DiverGlobos, inicio">
+                <img src="images/DiverglobosLOGO.JPG" alt="DiverGlobos" class="site-logo">
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menu-toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="main-nav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="main-nav" id="main-nav">
+                <a href="#inicio">Inicio</a>
+                <a href="#galeria">Nuestras creaciones</a>
+                <a href="#decoraciones">Decoraciones</a>
+                <a href="#historia">Nuestra esencia</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- BANNER HORIZONTAL -->
+        <section class="hero" id="inicio">
+
+            <div class="hero-decoration hero-decoration-one"></div>
+            <div class="hero-decoration hero-decoration-two"></div>
+            <div class="hero-decoration hero-decoration-three"></div>
+
+            <div class="container hero-layout">
+
+                <div class="hero-content">
+                    <span class="eyebrow">Pequeños detalles, grandes recuerdos</span>
+
+                    <h1>Momentos especiales, decoraciones únicas</h1>
+
+                    <p>
+                        Creamos decoraciones con globos llenas de color,
+                        ilusión y personalidad para acompañarte en tus
+                        celebraciones más especiales.
+                    </p>
+
+                    <a href="#galeria" class="button button-primary">
+                        Descubre nuestras creaciones
+                    </a>
+                </div>
+
+                <div class="hero-image">
+                    <img
+                        src="images/GlobosBebePeilcula.JPG"
+                        alt="Decoración de DiverGlobos para una celebración especial"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- GALERÍA -->
+        <section class="projects section" id="galeria">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Un mundo de posibilidades</span>
+                    <h2>Un poquito de inspiración</h2>
+                    <p>
+                        Cada celebración es diferente y cada decoración
+                        tiene su propia magia.
+                    </p>
+                </div>
+
+                <div class="gallery-wrapper">
+
+                    <button
+                        class="gallery-arrow gallery-arrow-prev"
+                        id="gallery-prev"
+                        type="button"
+                        aria-label="Ver fotografías anteriores"
+                        disabled
+                    >
+                        &#10094;
+                    </button>
+
+                    <div class="gallery-viewport" id="gallery-viewport">
+                        <div class="gallery-track" id="gallery-track">
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosBabyShower.JPG"
+                                     alt="Decoración con globos para baby shower"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosBautizo.JPG"
+                                     alt="Decoración con globos para bautizo"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosBebePeilcula.JPG"
+                                     alt="Decoración infantil con globos"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosBoda.JPG"
+                                     alt="Decoración con globos para una boda"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosEncanto.JPG"
+                                     alt="Decoración temática de Encanto"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/Globosfutbol.JPG"
+                                     alt="Decoración temática de fútbol"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosOso.JPG"
+                                     alt="Decoración con globos y osito"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/Globospulpo.JPG"
+                                     alt="Decoración infantil temática"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/GlobosRoblox.JPG"
+                                     alt="Decoración temática de Roblox"
+                                     loading="lazy">
+                            </div>
+
+                            <div class="gallery-item">
+                                <img src="images/Globossafari.JPG"
+                                     alt="Decoración temática de safari"
+                                     loading="lazy">
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <button
+                        class="gallery-arrow gallery-arrow-next"
+                        id="gallery-next"
+                        type="button"
+                        aria-label="Ver fotografías siguientes"
+                    >
+                        &#10095;
+                    </button>
+
+                </div>
+
+                <div
+                    class="gallery-dots"
+                    id="gallery-dots"
+                    aria-label="Páginas de la galería"
+                ></div>
+
+            </div>
+        </section>
+
+
+        <!-- TIPOS DE DECORACIÓN -->
+        <section class="decorations section" id="decoraciones">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="eyebrow">Para cada ocasión</span>
+                    <h2>Momentos que merecen celebrarse</h2>
+                    <p>
+                        Cuéntanos qué celebras y buscaremos una decoración
+                        que encaje contigo.
+                    </p>
+                </div>
+
+                <div class="decoration-grid">
+
+                    <article class="decoration-card decoration-pink">
+                        <div class="decoration-icon" aria-hidden="true">♡</div>
+                        <h3>Cumpleaños</h3>
+                        <p>
+                            Dale un toque especial a ese día con una
+                            decoración llena de color y alegría.
+                        </p>
+                    </article>
+
+                    <article class="decoration-card decoration-lilac">
+                        <div class="decoration-icon" aria-hidden="true">✧</div>
+                        <h3>Bodas</h3>
+                        <p>
+                            Detalles decorativos para acompañar uno de
+                            los momentos más bonitos de vuestra historia.
+                        </p>
+                    </article>
+
+                    <article class="decoration-card decoration-cream">
+                        <div class="decoration-icon" aria-hidden="true">♡</div>
+                        <h3>Bautizos</h3>
+                        <p>
+                            Decoraciones dulces y delicadas para celebrar
+                            un día inolvidable en familia.
+                        </p>
+                    </article>
+
+                    <article class="decoration-card decoration-blue">
+                        <div class="decoration-icon" aria-hidden="true">✿</div>
+                        <h3>Baby showers</h3>
+                        <p>
+                            Una bienvenida llena de ternura, ilusión y
+                            pequeños detalles especiales.
+                        </p>
+                    </article>
+
+                </div>
+
+                <div class="decorations-cta">
+                    <p>¿Tienes otra celebración en mente?</p>
+                    <a href="#contacto" class="text-link">
+                        Cuéntanos tu idea <span aria-hidden="true">→</span>
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- NUESTRA ESENCIA CON UNA FOTO REAL -->
+        <section class="about section" id="historia">
+
+            <div class="container about-container">
+
+                <div class="about-content">
+                    <span class="eyebrow">La ilusión está en los detalles</span>
+
+                    <h2>Detrás de cada decoración hay una ilusión</h2>
+
+                    <p>
+                        En DiverGlobos creemos que los momentos especiales
+                        merecen detalles que los hagan todavía más bonitos.
+                    </p>
+
+                    <p>
+                        Cada idea es una oportunidad para crear algo único.
+                        Nos encanta dar forma a tus propuestas y preparar
+                        decoraciones que acompañen tus recuerdos más felices.
+                    </p>
+
+                    <p class="about-highlight">
+                        Tú imaginas el momento. ¡Nosotras ponemos la magia!
+                    </p>
+                </div>
+
+                <div class="about-photo">
+                    <img
+                        src="images/GlobosBautizo.JPG"
+                        alt="Una de las decoraciones especiales de DiverGlobos"
+                        loading="lazy"
+                    >
+                    <span class="about-photo-decoration" aria-hidden="true">♡</span>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- INSTAGRAM Y CONTACTO -->
+        <section class="contact-instagram section" id="contacto">
+
+            <div class="container">
+
+                <div class="contact-intro">
+                    <span class="eyebrow">¡Vamos a crear algo bonito!</span>
+
+                    <h2>¿Tienes una idea en mente?</h2>
+
+                    <p>
+                        Cuéntanos qué quieres celebrar, qué estilo te gusta
+                        o qué tienes en mente. Escríbenos por Instagram y
+                        juntas daremos forma a una decoración especial.
+                    </p>
+
+                    <a
+                        href="https://www.instagram.com/diverglobs/"
+                        class="button button-instagram"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Cuéntanos tu idea por Instagram
+                    </a>
+                </div>
+
+                <div class="instagram-preview">
+
+                    <div class="instagram-heading">
+                        <div>
+                            <span class="eyebrow">Síguenos e inspírate</span>
+                            <h3>Un poquito de DiverGlobos</h3>
+                        </div>
+
+                        <a
+                            href="https://www.instagram.com/diverglobs/"
+                            class="instagram-profile-link"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            @diverglobs <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+
+                    <!--
+                        VISTA PREVIA CON FOTOS LOCALES.
+                        Para mostrar publicaciones reales de Instagram,
+                        aquí habrá que insertar el código del widget.
+                    -->
+
+                    <div class="instagram-feed">
+
+                        <a href="https://www.instagram.com/diverglobs/"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="images/GlobosBoda.JPG"
+                                 alt="Decoración para boda" loading="lazy">
+                            <span class="instagram-overlay">Ver en Instagram ↗</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/diverglobs/"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="images/GlobosBabyShower.JPG"
+                                 alt="Decoración para baby shower" loading="lazy">
+                            <span class="instagram-overlay">Ver en Instagram ↗</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/diverglobs/"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="images/GlobosEncanto.JPG"
+                                 alt="Decoración temática" loading="lazy">
+                            <span class="instagram-overlay">Ver en Instagram ↗</span>
+                        </a>
+
+                        <a href="https://www.instagram.com/diverglobs/"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src="images/Globossafari.JPG"
+                                 alt="Decoración temática de safari" loading="lazy">
+                            <span class="instagram-overlay">Ver en Instagram ↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="site-footer">
+
+        <div class="container footer-inner">
+            <a href="#inicio" class="footer-brand">DiverGlobos</a>
+            <p>Decoraciones hechas con ilusión ♡</p>
+
+            <a
+                href="https://www.instagram.com/diverglobs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="footer-instagram"
+            >
+                Instagram ↗
+            </a>
+        </div>
+
+        <div class="footer-bottom">
+            <p>
+                &copy; <span id="current-year"></span>
+                DiverGlobos. Todos los derechos reservados.
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
